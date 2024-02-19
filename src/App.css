@@ -1,0 +1,78 @@
+.App{
+    width:100%;
+    min-height:100vh;
+    background:linear-gradient(135deg,#153677,#4e085f);
+    display: flex;
+    justify-content: Center;
+    align-items: center;
+}
+.container{
+    width:500px;
+    /* height: 350px; */
+    background: #fff;
+    border:1px solid;
+    padding:50px;
+    padding-top: 20px;
+}
+.container h1{
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom:10px;
+    margin-top: 10px;
+}
+.inp{
+    width: 100%;
+    border:1px solid;
+    /* margin-left:10px;  */
+    background-color: #edeef0;
+    border-radius: 20px;
+    height:35px;
+    display: flex;
+    /* border: none;
+    outline: none; */
+}
+input{
+    flex:1; 
+    border:none;
+    outline:none;
+    background: transparent;
+    padding: 10px; 
+}
+.add-btn{
+    border:none;
+    outline:none;
+    /* padding:10px; */
+    width:70px;
+    text-align: center;
+    /* display: flex; */
+   
+    
+    /* padding-left: 40px; */
+    background: #ff5945;
+    color: #fff;
+    font-size: 15px;
+    cursor:pointer;
+    border-radius: 20px;
+}
+.todo{
+    position: relative;
+    margin-top: 5px;
+    background-color: white;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.icons{
+    position: absolute;
+    top: 28%;
+    display: flex;
+    right: 20px;
+    gap: 10px;
+}
+.icon{
+    cursor: pointer;
+    font-size: 20px;
+}
